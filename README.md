@@ -1,5 +1,8 @@
 # SteamCMD_Downloader
-Download SteamCMD Apps with Ease
+Download SteamCMD Apps with Ease.
+
+# Requirements
+[PowerShell 7.4.4](https://learn.microsoft.com/es-es/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) or greater.
 
 # How to Use?
 Download "[DownloadApp.ps1](../../releases/latest/download/DownloadApp.ps1)" and place it next to SteamCMD.exe - [SteamCMD download here](https://developer.valvesoftware.com/wiki/SteamCMD).
@@ -55,7 +58,10 @@ Then, if empty or not exitent, you will be promt to select one of the Apps in yo
 
 Which ever selection you make ( except "Quit" ), will start downloading. Enjoy.
 
-## Description
+## If needed...
+Use this command `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process` if PowerShell doesn't allow you to run it.
+
+### Description
 `Name` : Name of the App - Will be used for the folders name
 
 `AppID` : AppID of the App
