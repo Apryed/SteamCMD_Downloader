@@ -54,6 +54,8 @@ Then, if empty or not exitent, you will be promt to select one of the Apps in yo
 Which ever selection you make ( except "Quit" ), will start downloading. Enjoy.
 
 ## Description
-Name : Name of the App - Will be used for the folders name
-AppID : AppID of the App
-Beta : Available betas of the App. Blank = Default behaviour - Install latest stable version.
+`Name` : Name of the App - Will be used for the folders name
+
+`AppID` : AppID of the App
+
+`Beta` : Available betas of the App. Blank = Default behaviour - Install latest stable version.
