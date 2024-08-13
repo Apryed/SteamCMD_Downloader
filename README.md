@@ -3,7 +3,9 @@ Download SteamCMD Apps with Ease
 
 # How to Use?
 Download "[DownloadApp.ps1](../../releases/latest/download/DownloadApp.ps1)" and place it next to SteamCMD.exe - [SteamCMD download here](https://developer.valvesoftware.com/wiki/SteamCMD).
-Create a file called "MyAppList.json" with the follow format:
+Create a file called "[MyAppList.json](https://raw.githubusercontent.com/Apryed/SteamCMD_Downloader/main/MyAppList.json)" with the follow format:
+
+
 ```
 [
 	{
